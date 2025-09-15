@@ -11,7 +11,8 @@ root = tk.Tk()
 root.title('Digital Clock')
 
 # Create label
-label = tk.Label(root, font=('Arial', 100), background='black', foreground='lime')
+label = tk.Label(root, font=('Arial', 600), background='black', foreground='lime')
+
 label.pack(anchor='center')
 
 # Start the clock
