@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('GIT CHECKOUT') {
             steps {
-                git https://github.com/maheshdk4/Digi-Clock
+                git 'https://github.com/maheshdk4/Digi-Clock'
             }
         }
         stage('BUILDING') {
